@@ -2,9 +2,9 @@
 cloud-host.local
 
 [infra_vms]
-master.local    infrahost=cloud-host.local 
-infranode.local infrahost=cloud-host.local
-appnode.local   infrahost=cloud-host.local
+master.local.yml 
+infranode.local.yml 
+appnode.local.yml 
 
 [cluster_hosts:children]
 OSEv3
