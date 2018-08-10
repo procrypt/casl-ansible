@@ -35,8 +35,3 @@ net-tools
 wget
 
 %end
-
-%post
-useradd abhishek -c "Abhishek"
-echo redhat | passwd --stdin abhishek
-%end
