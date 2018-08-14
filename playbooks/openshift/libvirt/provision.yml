@@ -1,5 +1,4 @@
 ---
-- hosts: infra_hosts
-  gather_facts: no
+- hosts: infrahost
   roles:
     - ../../../galaxy/infra-ansible/roles/virt-install
