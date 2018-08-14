@@ -12,7 +12,7 @@ libvirt_network_hostif: "virbr0"
 libvirt_http_host: '192.168.122.1'
 libvirt_network_type: "bridge"
 
-infra: cloud-host.local.yml
+infrahost: cloud-host.local.yml
 ansible_host: 192.168.122.10
 ansible_user: root
 ansible_ssh_pass: redhat

@@ -24,8 +24,6 @@ openshift_hosted_manage_registry: true
 
 openshift_docker_options: "--log-driver=json-file --log-opt max-size=50m --log-opt max-file=100"
 
-#openshift_cloudprovider_kind: libvirt
-
 os_sdn_network_plugin_name: 'redhat/openshift-ovs-networkpolicy'
 #os_sdn_network_plugin_name: 'redhat/openshift-ovs-multitenant'
 os_firewall_use_firewalld: true
